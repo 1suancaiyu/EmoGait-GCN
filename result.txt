@@ -1,0 +1,57 @@
+dgnn.log
+
+Loading data...
+Evaluating dgnn
+Loaded: 1428 training, 159 val
+Loading dgnn...
+loss:  0.8831552617976457 ap:  [0.96702514 0.81666667 0.60796065 0.        ]  map:  0.7972174855093984  f1:  0.46659616469261134
+
+
+
+stgcn.log
+
+Loading data...
+Evaluating stgcn
+Loaded: 1428 training, 159 val
+Loading stgcn...
+BN SZ:  63
+loss:  0.3870441103799208 ap:  [0.96587829 0.31606151 0.11447917 0.        ]  map:  0.46547299070593035  f1:  0.21999999999999997
+
+
+lstm.log
+
+Loading data...
+Evaluating lstm
+Loading data...
+Evaluating lstm
+Loading data...
+Evaluating lstm
+Loading data...
+Evaluating lstm
+aps: [0.59782609 0.29891304 0.22826087 0.11956522]
+mean ap: 0.2727893013100437
+Loading data...
+Evaluating lstm
+
+
+
+
+step.log
+
+Loading data...
+Evaluating step
+aps: [0.52403526 0.30134182 0.21726216 0.12330883]
+mean ap: 0.27892742148361777
+Loading data...
+Evaluating step
+
+
+
+
+taew.log
+
+[01.22.21|07:48:58]   mean_loss: 3.498415481476557.
+[01.22.21|07:48:58]   aps: [0.17857143 0.73182372 0.89203879 0.79093205].
+[01.22.21|07:48:58]   mean_ap: 0.8110408726114036.
+Loading data...
+Evaluating taew

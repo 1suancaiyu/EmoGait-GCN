@@ -1,0 +1,145 @@
+#taew_code_file_tree
+
+|-- data.py
+|-- datasets.zip
+|-- weights.zip
+|-- download_data_weights.sh #download and extract the sample datasets and network weights
+|-- environment.yml
+|-- evaluate.py
+
+
+|-- taew_net
+|   |-- main.py #starting point of the code
+|   |-- net
+|   |   |-- __init__.py
+|   |   |-- hap.py	#contains the overall network and description of the forward pass
+|   |   `-- utils
+|   |       |-- __init__.py
+|   |       |-- graph.py
+|   |       `-- tgcn.py
+|   |-- torchlight
+|   |   |-- build
+|   |   |   `-- lib
+|   |   |       `-- torchlight
+|   |   |           |-- __init__.py
+|   |   |           |-- gpu.py
+|   |   |           `-- io.py
+|   |   |-- dist
+|   |   |   `-- torchlight-1.0-py3.5.egg
+|   |   |-- setup.py
+|   |   |-- torchlight
+|   |   |   |-- __init__.py
+|   |   |   |-- gpu.py
+|   |   |   `-- io.py
+|   |   `-- torchlight.egg-info
+|   |       |-- PKG-INFO
+|   |       |-- SOURCES.txt
+|   |       |-- dependency_links.txt
+|   |       `-- top_level.txt
+|   `-- utils
+|       |-- Quaternions.py
+|       |-- Quaternions_torch.py
+|       |-- __init__.py
+|       |-- common.py
+|       |-- loader.py #loading the data and the labels
+|       |-- losses.py
+|       |-- processor.py 
+		#the main training routine with forward and backward passes on the network,
+		# and parameter updates per iteration.
+
+
+|-- models
+|   |-- dgnn
+|   |   |-- __init__.py
+|   |   |-- dgnn.py
+|   |   |-- dgnn_graph.py
+|   |   `-- dgnn_old.py
+|   |-- model_loader.py
+|   `-- stgcn
+|       |-- __init__.py
+|       |-- st_gcn.py
+|       |-- st_gcn_twostream.py
+|       |-- stgcn_graph.py
+
+
+
+
+
+
+
+
+|-- lstm
+|   |-- main.py
+|   |-- net
+|   |   |-- __init__.py
+|   |   |-- classifier.py
+|   |   `-- utils
+|   |       |-- __init__.py
+|   |       |-- graph.py
+|   |       `-- tgcn.py
+|   |-- torchlight
+|   |   |-- build
+|   |   |   `-- lib
+|   |   |       `-- torchlight
+|   |   |           |-- __init__.py
+|   |   |           |-- gpu.py
+|   |   |           `-- io.py
+|   |   |-- dist
+|   |   |   `-- torchlight-1.0-py3.5.egg
+|   |   |-- setup.py
+|   |   |-- torchlight
+|   |   |   |-- __init__.py
+|   |   |   |-- gpu.py
+|   |   |   `-- io.py
+|   |   `-- torchlight.egg-info
+|   |       |-- PKG-INFO
+|   |       |-- SOURCES.txt
+|   |       |-- dependency_links.txt
+|   |       `-- top_level.txt
+|   `-- utils
+|       |-- Quaternions.py
+|       |-- __init__.py
+|       |-- common.py
+|       |-- loader.py
+|       |-- processor.py
+|       `-- temp.py
+|       `-- tgcn.py
+|-- step
+|   |-- main.py
+|   |-- net
+|   |   |-- __init__.py
+|   |   |-- classifier.py
+|   |   `-- utils
+|   |       |-- __init__.py
+|   |       |-- graph.py
+|   |       `-- tgcn.py
+|   |-- torchlight
+|   |   |-- build
+|   |   |   `-- lib
+|   |   |       `-- torchlight
+|   |   |           |-- __init__.py
+|   |   |           |-- gpu.py
+|   |   |           `-- io.py
+|   |   |-- dist
+|   |   |   `-- torchlight-1.0-py3.5.egg
+|   |   |-- setup.py
+|   |   |-- torchlight
+|   |   |   |-- __init__.py
+|   |   |   |-- gpu.py
+|   |   |   `-- io.py
+|   |   `-- torchlight.egg-info
+|   |       |-- PKG-INFO
+|   |       |-- SOURCES.txt
+|   |       |-- dependency_links.txt
+|   |       `-- top_level.txt
+|   `-- utils
+|       |-- Quaternions.py
+|       |-- __init__.py
+|       |-- common.py
+|       |-- loader.py
+|       |-- processor.py
+|       `-- temp.py
+|       `-- visualizations.py
+|-- tree.log
+
+
